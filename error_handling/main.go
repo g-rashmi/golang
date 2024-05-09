@@ -1,11 +1,11 @@
 package main
 
 import "fmt"
-func div(a , b float64) (float64,error){
+func div(a , b float64) (float64,string){
 	if(b==0){
-		return 0 , fmt.Errorf("denominator is not zeeo")
+		return 0 , "denominator is not zeeo"
 	}
-	return a/b ,nil; 
+	return a/b ,"nil"; 
 }
 func main() {
 	fmt.Println("error haandling in go")
