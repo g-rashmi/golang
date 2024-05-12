@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("learn pointers in go")
+	fmt.Println("learn data conversion in go")
 	var num int =33 ; 
 	var floatnum float64 = float64(num)  ; 
 	fmt.Println(floatnum)
